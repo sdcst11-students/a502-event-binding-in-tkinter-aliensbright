@@ -16,7 +16,7 @@ def clickFunction(event):
         p1=nameE.get()
         p2=StuNumE.get()
         p3=GrdE.get()
-        StuInfo=(f"Name: {p1}\nStudent Number: {p2}\nGrade: {p3}")
+        StuInfo=(f"Name: {p1} Student Number: {p2} Grade: {p3}")
         InfoStu.delete(0,END)
         InfoStu.insert(0,StuInfo)
 win = tk.Tk()

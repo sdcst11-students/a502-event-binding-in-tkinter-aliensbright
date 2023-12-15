@@ -8,6 +8,7 @@ Any labels you need for instruction are optional.
 """
 import tkinter as tk 
 from tkinter import *
+from tkinter import ttk
 
 def clickFunction(event):
     s1=entry1.get()
